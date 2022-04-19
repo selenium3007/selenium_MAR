@@ -1,0 +1,14 @@
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.durgasoft.ecommerce.listeners.Listeners"></listener>
+		<listener
+			class-name="com.durgasoft.ecommerce.listeners.RetryListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class
+				name="com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration" />
+		</classes>
+	</test>
+</suite> 
